@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Our Menu </title>
+  <style>
+  * {
+  box-sizing: border-box;
+  }
+div1,div2,div3 {
+     font-family: Helvetica;
+     font-size: 16px;
+  background-color: gray;
+  padding: 0px 10px 10px 10px;
+  margin:  10px;
 
-You can use the [editor on GitHub](https://github.com/Blu4lifealfy/COURSERA-ASSIGNMENTS/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+  }
+section {text-align: right; border-left: 1px solid black; border-bottom: 1px solid black; margin:  0;font-size: 20px;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+}
 
-### Markdown
+  .chicken {background-color: pink; font-weight: bolder;
+  }
+  .beef {background-color: red;font-weight: bolder}
+  .sushi {background-color: yellow;font-weight: bolder}
+  .row {
+  
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/********** Large devices only **********/
+@media (min-width: 992px) {div1,div2,div3{float: left; border: 1px solid black}
+div1{width: 31%;}
+div2{width: 31%;}
+div3{width: 31%;}
+}
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Blu4lifealfy/COURSERA-ASSIGNMENTS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {div1,div2,div3{float: left;border: 1px solid black}
+div1{width: 47%;}
+div2{width: 47%;}
+div3{width: 100%;}
+}
+  body { text-align: center;
+  font-size: 28px; }
+  </style>
+      
+</head>
+<body>
+  <h1>Our Menu</h1>
+  <div class="row">
+    <div class="row1">
+      
+    <div1> 
+      <section class="chicken" > Chicken</section>This is the content of each box. From what i gather, all three boxes have the same content or can have the same content. and i guess it should be long enough to form like a paragraph. i hope this is enough </div1>
+  </div>
+  <div class="row2">
+    
+    <div2> 
+      <section class="beef">Beef</section>
+    This is the content of each box. From what i gather, all three boxes have the same content or can have the same content. and i guess it should be long enough to form like a paragraph. i hope this is enough </div2>
+  </div>
+  <div class="row3">
+    
+    <div3> 
+      <section class="sushi">Sushi</section>This is the content of each box. From what i gather, all three boxes have the same content or can have the same content. and i guess it should be long enough to form like a paragraph. i hope this is enough </div3>
+  </div>
+</div>
+</body>
+</html>
